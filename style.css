@@ -9,13 +9,12 @@
     font-family:   "Merriweather Sans", sans-serif;
 }
 .sec1{
+    background: url(./images/PHOTO-2025-08-31-18-45-47.jpg);
+    height: 90vh;
     display: flex;
-    /* margin-top: 24px; */
-    align-items: center;
     justify-content: center;
-    gap: 1rem;
-    background-color: grey;
-}
+    align-items: center;
+}   
 nav{
     background-color: grey;
     color: #fff;
@@ -71,7 +70,7 @@ nav{
 }
 .about>.wel{
     font-size: 13px;
-    color: rgb(94, 127, 224)
+    color: rgb(35, 74, 190)
 }
 a> span{
     font-size: 10px;
