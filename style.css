@@ -14,10 +14,10 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: grey;
+    background-color: black;
 }
 nav{
-    background-color: black;
+    background-color: grey;
     color: #fff;
 }
 
@@ -50,7 +50,7 @@ nav{
     
 }
 .mail-bar > a{
-    color: red;
+    color: rgb(35, 74, 190);
     padding-right: 12px;
 }
 .nav-bar{
@@ -61,7 +61,7 @@ nav{
 
 }
 .about > button{
-    background-color: red;
+    background-color: rgb(35, 74, 190);
     border: none;
     border-radius: 20px;
     width: 120px;
@@ -98,7 +98,7 @@ a> span{
     top: 8px;
     /* left: 10px; */
     background: rgb(35, 74, 190);
-    color: red;
+    color: rgb(35, 74, 190);
     font-size: 14px;
     font-weight: bold;
     padding: 4px 8px;
@@ -170,6 +170,9 @@ a> span{
     gap: 1rem;
     margin-top: 18px;
 }
+.sec4{
+    /* background-color: grey; */
+}
 .name{
     text-align: center;
 }
@@ -209,11 +212,43 @@ a> span{
     border: none;
 }
 .stock{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
     margin: 15px 0;
 }
-
+.sold{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.progress{
+    height: 100%;
+    background: gold;
+    width: 85%;
+}
+.progress-bar{
+    width: 100%;
+    height: 11px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.smart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/PHOTO-2025-08-31-17-49-18.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.smart1 p{
+    width:300px;
+}
+.smart{
+    color: cre;
+}
 
