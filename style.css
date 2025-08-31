@@ -33,9 +33,9 @@ nav{
       text-transform:capitalize ;
 }
 .about {
-    color: rgb(35, 74, 190);
+    color: black;
     padding: 7px;
-    margin-top: 260px;
+    /* margin-top: 260px; */
 
     
 }
@@ -65,7 +65,8 @@ nav{
 
 }
 .about > button{
-    background-color: rgb(35, 74, 190);
+    background-color: black;
+    color: #ccc;
     border: none;
     border-radius: 20px;
     width: 120px;
@@ -75,7 +76,7 @@ nav{
 }
 .about>.wel{
     font-size: 13px;
-    color: rgb(35, 74, 190)
+    color: black;
 }
 a> span{
     font-size: 10px;
