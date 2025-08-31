@@ -137,7 +137,7 @@ a> span{
 }
 .product-card{
     border: 1px solid;
-    background-color: #f0e4cc;
+    background-color: grey;
     /* background-color: #f5f5dc; */
     width: 200px;
     border-radius: 8px;
