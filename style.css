@@ -10,10 +10,12 @@
 }
 .sec1{
     background: url(./images/PHOTO-2025-08-31-18-45-47\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 90vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }   
 nav{
     background-color: grey;
@@ -32,6 +34,9 @@ nav{
 }
 .about {
     color: rgb(35, 74, 190);
+    padding: 10px;
+    margin-top: 9px;
+
     
 }
 .about>h2{
