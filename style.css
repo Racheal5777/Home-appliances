@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: black;
+    background-color: grey;
 }
 nav{
     background-color: grey;
@@ -98,7 +98,7 @@ a> span{
     top: 8px;
     /* left: 10px; */
     background: rgb(35, 74, 190);
-    color: rgb(35, 74, 190);
+    color: red;
     font-size: 14px;
     font-weight: bold;
     padding: 4px 8px;
@@ -240,8 +240,8 @@ a> span{
     justify-content: center;
     align-items: center;
     background-image: url(./images/PHOTO-2025-08-31-17-49-18.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     gap: 2rem;
     margin-top: 5rem;
 }
@@ -249,6 +249,6 @@ a> span{
     width:300px;
 }
 .smart{
-    color: cre;
+    color: rgb(58, 11, 11);
 }
 
