@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: black;
+    background-color: grey;
 }
 nav{
     background-color: black;
@@ -92,12 +92,7 @@ a> span{
     /* flex-direction: column; */
     /* gap: 1rem; */
 }
-.card2{
-    position: relative;
-    bottom: 30px;
 
-
-}
 .discount{
     position: relative;
     top: 8px;
@@ -213,6 +208,12 @@ a> span{
     width: 110px;
     border: none;
 }
-
+.stock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 0;
+}
 
 
