@@ -14,8 +14,8 @@
     background-size: cover;
     height: 90vh;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }   
 nav{
     background-color: grey;
@@ -34,7 +34,10 @@ nav{
       text-transform:capitalize ;
 }
 .about {
-    color: black;
+    color: rgb(94, 127, 224);
+    border: 2px solid;
+    border:none;
+    background-color: black;
     padding: 7px;
     /* margin-top: 260px; */
 
@@ -67,18 +70,21 @@ nav{
 
 }
 .about > button{
-    background-color: black;
+    background-color: rgb(94, 127, 224);
+    padding: 3px;
     color: #ccc;
     border: none;
     border-radius: 20px;
-    width: 120px;
+    font-weight: lighter;
+    width: 135px;
     height: 35px;
     cursor: pointer;
 
 }
 .about>.wel{
     font-size: 13px;
-    color: black;
+    color: rgb(94, 127, 224);
+    margin-top: 10px;
 }
 a> span{
     font-size: 10px;
@@ -215,10 +221,10 @@ a> span{
     width: 500px;
 }
 .combo3{
-    color: gold;
+    color: grey;
 }
 .combo3 > button{
-    background-color: gold;
+    background-color: grey;
     height: 30px;
     width: 110px;
     border: none;
@@ -251,17 +257,22 @@ a> span{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/PHOTO-2025-08-31-18-45-47\ \(2\).jpg);
+    /* background-image: url(./images/PHOTO-2025-08-31-17-49-18.jpg); */
+    background-color: grey;
     /* background-repeat: no-repeat; */
     background-size: contain;
     gap: 2rem;
     margin-top: 5rem;
+}
+.smart h1{
+    width: 500px;
 }
 .smart1 p{
     width:300px;
 }
 .smart{
     color: rgb(255, 253, 253)
+    /* color: rgba(73, 8, 151, 0.541); */
 }
 .smart1 button{
     background-color: rgb(255, 253, 253);
@@ -322,4 +333,76 @@ a> span{
     background-color: red;
     color: red;
 }
+.blog{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    gap: 2rem;
+}
+.top{
+    width: 300px;
+    color: grey;
+    margin-top: 1rem;
+}
 
+.top2{
+    max-width: 300px;
+    color: grey;
+    margin-top: 1rem;
+}
+.only{
+    border: 2px solid;
+    background-color: whitesmoke;
+    border: none;
+    gap: 1rem;
+
+}
+.blog2{
+    text-align: center;
+    color: grey;
+}
+.sec7{
+    margin-top: 4rem;
+}
+.feb{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    color: rgb(107, 91, 91);
+    font-size: small;
+
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.subscribe > input {
+    padding: 5px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+}
+.subscribe button{
+    background-color: rgb(35, 74, 190);
+    border-radius: 0 25px 25px 0;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    /* padding: 12px 12px; */
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 70px;
+    padding: 1rem;
+}
+.sub2{
+    color: white
+}
