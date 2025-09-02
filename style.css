@@ -351,6 +351,7 @@ a> span{
     max-width: 300px;
     color: grey;
     margin-top: 1rem;
+    padding: 5px;
 }
 .only{
     border: 2px solid;
@@ -406,3 +407,44 @@ a> span{
 .sub2{
     color: white
 }
+.best-at{
+    display: flex;
+    justify-content: center;
+    padding: none;
+    gap: 3rem;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 2rem;
+    font-size: 14px;
+    /* margin-top: 3rem; */
+}
+footer{
+    background-color: rgb(107, 91, 91);
+    height: 70vh;
+}
+.last{
+    text-align: center;
+    margin-top: 6rem;
+}
+.last p{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.2rem;
+    font-size: 13px;
+}
+
