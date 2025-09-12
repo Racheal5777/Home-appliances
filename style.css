@@ -8,33 +8,85 @@
     box-sizing: border-box;
     font-family:   "Merriweather Sans", sans-serif;
 }
-.sec1{
-    background: url(./images/PHOTO-2025-08-31-18-45-47.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.carousel-items >img{
+    /* object-fit: cover; */
+    background-position: center;
     height: 90vh;
+    background-size: 100% 100%;
+}
+/* .badge{ */
+    background-color: black;
+    text-align: center;
+    line-height: normal;
+
+    color: white;
+    border: 2px solid;
     display: flex;
     justify-content: center;
+    padding-left: 20px;
     align-items: center;
-}   
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+}
+.loveic > .cartic{
+    position: relative;
+}
+.loveic > .badge{ 
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    
+    background-color: blue;
+    flex-wrap: wrap;
+
+    height: 13px; 
+    text-align: center;
+    gap: 2px;
+    /* width: 13px ; */
+    border-radius: 400%;
+    /* padding: 9px 9px; */
+    font-size: 8px;
+}
+.cartic>.badges{
+     position: absolute;
+    top: 12px;
+    right: 20px;
+    
+    background-color: blue;
+    flex-wrap: wrap;
+    width:13px ;
+    color: #fff;
+
+    height: 13px; 
+    text-align: center;
+    gap: 2px;
+    /* width: 13px ; */
+    border-radius: 400%;
+    /* padding: 9px 9px; */
+    font-size: 8px;
+
+}
 nav{
-    background-color: grey;
+    /* background-image:url(images/william-daigneault-YBl4fQPsBJY-unsplash.jpg) ; */
+    background-color: rgb(25, 106, 138);
     color: #fff;
 }
 
 .atag{
     margin-right: auto;
-    color: white;
+    color: brown;
 }
 .atag> a{
     /* /* color: rgb(35, 74, 190); */
-    color: black;
+    color: rgb(34, 17, 17);
     padding-right: 1.5rem;
     text-decoration: none;
       text-transform:capitalize ;
 }
 .about {
-    color: rgb(94, 127, 224);
+    color: #fff;
     border: 2px solid;
     border:none;
     background-color: black;
@@ -59,8 +111,9 @@ nav{
 }
 .mail-bar > a{
     /* color: rgb(35, 74, 190); */
-    color: black;
-    padding-right: 12px;
+    color: rgb(34, 17, 17);
+    padding-right: 10px;
+    text-decoration: none;
 }
 .nav-bar{
     display: flex;
@@ -69,10 +122,15 @@ nav{
     padding: 2px 15px;
 
 }
+/* .bad{
+position: relative;
+right: 45px;
+text-align: center;
+} */
 .about > button{
-    background-color: rgb(94, 127, 224);
+    background-color:#fff;
     padding: 3px;
-    color: #ccc;
+    color: #000;
     border: none;
     border-radius: 20px;
     font-weight: lighter;
@@ -83,7 +141,7 @@ nav{
 }
 .about>.wel{
     font-size: 13px;
-    color: rgb(94, 127, 224);
+    color: #fff;
     margin-top: 10px;
 }
 a> span{
@@ -92,13 +150,17 @@ a> span{
 .card1{
      border: 1px solid black;
     /* box-shadow: 0 0 9px; */
-    background-color: grey;
+    background-color: #000;
     border-radius: 10px;
-    color: rgb(13, 61, 207);
-    /* padding: auto; */
-    height: 60vh;
-    width: 50vh;
+    color: grey;
+    background-size: contain;
+    /* padding-right: 1rem; */
+    /* margin: auto; */
+    /* height: 60vh; */
+    width: 350px;
     border: none;
+    /* padding: 1rem; */
+    /* max-width: 300px; */
     text-align: center;
     font-size: 15px;
     /* margin: auto; */
@@ -108,12 +170,22 @@ a> span{
 }
 .why{
     padding-right: 3px;
+    text-align: center;
+    margin-left: 2rem;
+    width: 300px;
+}
+.card1 h3{
+    font-size: 19px;
+}
+.why2{
+    /* width: 300px; */
+    /* font-size: 13.5px; */
 }
 .discount{
     position: relative;
     top: 8px;
     /* left: 10px; */
-    background: rgb(35, 74, 190);
+    background: grey;
     color: red;
     font-size: 14px;
     font-weight: bold;
@@ -128,7 +200,7 @@ a> span{
     bottom: 12px;
     left: 80px;
     font-size: 20px;
-    color: rgb(35, 74, 190);
+    color: grey;
 
 }
 .all{
@@ -139,19 +211,32 @@ a> span{
 }
 .sec3{
     text-align: center;
-    color: rgb(35, 74, 190);
+    color: rgb(0, 0, 0);
 }
 .favourite:hover{
     color: white;
 }
 .product-card{
     border: 1px solid;
-    background-color: grey;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0  12px;
     /* background-color: #f5f5dc; */
     width: 200px;
     border-radius: 8px;
     text-align: center;
+    margin-block: 4px;
+    
 
+}
+.pro{
+    /* margin-block: 4rem */
+}
+
+
+.product-card:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 .card1 > img{
     max-width: fit-content;
@@ -169,18 +254,24 @@ a> span{
     margin-top: 3.5rem;
 }
 .title{
-    color: rgb(94, 127, 224);
+    color: #000;
+    font-size: 13px;
 }
 .line{
     text-decoration: line-through;
     color: red;
-    font-size: 13px;
+    font-size: 11px;
 }
 .name > .fa-solid{
     color: gold;
+    position: relative;
+    /* bottom: 1rem; */
+    font-size: 11px;
 }
 .name > .fa-regular{
     color: #ccc;
+    position: relative;
+    /* bottom: 1rem; */
 }
 .prod{
     display: flex;
@@ -189,10 +280,19 @@ a> span{
     margin-top: 18px;
 }
 .sec4{
-    /* background-color: grey; */
+    /* background-color: rgb(107, 91, 91); */
+    background-size: cover;
+    min-height: 400px;
+    padding: 10px;
 }
 .name{
     text-align: center;
+    margin: 1px 0;
+    margin-bottom: 3px;
+    
+    /* padding: 5px; */
+    position: relative;
+    /* bottom: 20px; */
 }
 .sec3{
     margin-top: 90px;
@@ -202,8 +302,16 @@ a> span{
     font-style: italic;
 
 }
+.name i{
+    font-size: 12px;
+}
+.names{
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+}
 .view{
-    color: rgb(94, 127, 224);
+    color: rgb(107, 91, 91);
 }
 .prods i{
     font-size: 12px;
@@ -257,12 +365,15 @@ a> span{
     display:flex;
     justify-content: center;
     align-items: center;
+    /* grid-template-columns: repeat(4. 1fr); */
     /* background-image: url(./images/PHOTO-2025-08-31-17-49-18.jpg); */
     background-color: grey;
     /* background-repeat: no-repeat; */
     background-size: contain;
     gap: 2rem;
     margin-top: 5rem;
+    /* max-width: 1000px; */
+    /* margin: auto; */
 }
 .smart h1{
     width: 500px;
@@ -271,7 +382,10 @@ a> span{
     width:300px;
 }
 .smart{
-    color: rgb(255, 253, 253)
+    color: rgb(255, 253, 253);
+    background-image: url(./images/mariola-grobelska-3GIchyZHxYY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* color: rgba(73, 8, 151, 0.541); */
 }
 .smart1 button{
@@ -283,10 +397,14 @@ a> span{
 }
 .pdo{
     display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns:repeat(5, 1fr);
-    column-gap: 1rem;
+     justify-items: center;
+     max-width: 1100px;
+     margin: auto;
+
+     /* align-items: center;  */
+    grid-template-columns:repeat(5,  1fr);
+    column-gap: 2rem ;
+    /* row-gap: 2px; */
     /* flex-direction: column; */
     /* column-count: 3; */
 
@@ -320,11 +438,11 @@ a> span{
 }
 .view2{
     position: relative;
-    bottom: 10px;
+    /* bottom: 10px; */
 }
 .view4{
     font-weight: 400;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .sec6{
     margin-top: 4rem;
@@ -338,13 +456,14 @@ a> span{
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 170px;
     gap: 2rem;
 }
 .top{
     width: 300px;
     color: grey;
     margin-top: 1rem;
+    padding: 2px;
 }
 
 .top2{
@@ -366,6 +485,8 @@ a> span{
 }
 .sec7{
     margin-top: 4rem;
+    background-image: url(./images/william-daigneault-QPJnkgucg1k-unsplash.jpg);
+    padding: 2rem;
 }
 .feb{
     display: flex;
@@ -421,7 +542,6 @@ a> span{
 }
 footer{
     background-color: rgb(107, 91, 91);
-    height: 70vh;
 }
 .last{
     text-align: center;
@@ -446,5 +566,248 @@ footer{
     gap: 1rem;
     margin-top: 2.2rem;
     font-size: 13px;
+
 }
+.hamburger{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media(min-width: 300px) and (max-width: 788px){
+    .nav-bar{
+        width: calc(100% - 40px);
+    }
+    .hamburger{
+        display: block;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+        
+
+    }
+    .atag{
+        position: absolute;
+        display: none;
+        width: 85%;
+        padding: 1.4rem 1rem;
+        top: 3rem;
+        left: 3px;
+        z-index: 1000;
+        opacity: 0.8;
+        background-color: #fff;
+        border-bottom: 4px solid #fff;
+        transform: translate(100%, 0);
+         transition: transform 0.5s cubic-bezier(0.4, 0, 0.2,1); 
+        
+    }
+    .atag a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #fff;
+
+    }
+    .mail-bar{
+        display: flex;
+    }
+    .loveic > .badge{
+        position: absolute;
+        right: 65px;
+    }
+    .cartic >.badges{
+        position: absolute;
+        right: 38px;
+    }
+    .carousel-items > img{
+        height: 30vh;
+         width: 100%;
+        object-fit: cover;
+    }
+    .carousel-item{
+        width: fit-content;
+    }
+    .act{
+        max-width: max-content;
+    }
+
+    #toggle:checked + .atag{
+        overflow: hidden;
+        display: block;
+        transform: none;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5rem;
+        padding-left: 7rem;
+    }
+    .sec7{
+        max-width: fit-content;
+    }
+    .policy{
+        padding: 16px;
+    }
+    .para p{
+        width:300px;
+    }
+    .blog{
+        flex-direction: column;
+        /* object-fit: contain; */
+        overflow: hidden;
+        width: fit-content;
+        position: relative;
+        right: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 19rem;
+    }
+    .sec4{
+        position: relative;
+        top: 40rem;
+    }
+    .best-at{
+        flex-direction: column;
+    }
+    .simp{
+        max-width: 200px;
+    }
+    .combo1{
+        position: relative;
+        top: 35rem;
+
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        gap: 2rem;
+        height: 100vh;
+    }
+    .combo1 img{
+        width: 100% ;
+        /* padding: 10px; */
+    }
+    .combo3 .combo{
+        width: 130%;
+    }
+    .combo1>.combo3{
+        object-fit: contain;
+        max-width: 90% ;
+        text-align: start;
+        margin-right: 80px;
+        padding: none;
+        
+    }
+    .smart img{
+        width: 110%;
+    }
+    .smart >.smart1{
+         object-fit: contain;
+        max-width: 90% ;
+        text-align: start;
+        margin-right: 80px;
+        padding: none;
+
+    }
+    .smart1 p{
+        width: 120%;
+    }
+    .smart1 h1{
+        width: 120%;
+    }
+    .prod{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+
+        
+    }
+    .sec6{
+        position: relative;
+        top:48rem
+    }
+    .smart{
+        position: relative;
+        top: 44rem;
+        flex-direction: column-reverse;
+          width: 100vw;
+        padding: 30px;
+        gap: 2rem;
+        height: 90vh;
+        
+    
+    }
+    .product-card img{
+        object-fit: contain;
+        width: 73%;
+        height: 12vh;
+        /* object-fit: cover; */
+        /* height: 15vh; */
+    }
+    .product-card{
+        max-width: 135px;
+        flex-basis: 20%;
+        overflow: hidden;
+    }
+    .all{
+        padding: 10px;
+    }
+    
+    
+
+    .tas{
+        display: none;
+    }
+    /* .tass{
+        display: none;
+    } */
+    .pdo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+        
+
+    
+    }
+    .sec7{
+        position: relative;
+        top: 54rem;
+    }
+    
+    .sub{
+        position: relative;
+        top: 60rem;
+        flex-direction: column;
+    }
+    .subscribe button{
+        padding: 10px;
+    }
+    footer{
+        position: relative;
+        top: 60rem;
+    }
+
+
+
+    
+
+
+}
+
+
 

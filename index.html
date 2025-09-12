@@ -14,7 +14,10 @@
        <div class="nav-bar">
          <div class="btf">
              <img src="./images/PHOTO-2025-08-29-16-34-00-removebg-preview.png" alt="" width="60px">
+              <!-- <h3>BTF LUXE</h3> -->
         </div>
+         <label for="toggle" class="hamburger"> &#9776;</label>
+        <input type="checkbox" id="toggle">
         
             <div class="atag">
                 
@@ -31,27 +34,58 @@
             <div class="mail-bar">
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a href=""><i class="fa-solid fa-circle-user"></i></a>
-                <a href=""><i class="fa-regular fa-heart"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="" class="loveic">
+                    <!-- <span class="badge">0</span> -->
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="badge bad"><p>0</p></span>
+                </a>
+                <a href="" class="cartic">
+                    <!-- <span class="badge">0</span> -->
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="badges"><p>0</p></span>
+                </a>
+            
             </div>
        </div>
     </nav>
-    <section  id="home"   class="sec1 genLayout">
-    <div>
-        <!-- <img src="" alt="images" width="600px"> -->
+    <section  id="home"   class="sec1 ">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item carousel-items active">
+      <img src="./images/home re.PNG" class="d-block w-100" alt="...">
     </div>
-    <div class="about">
+    <div class="carousel-item carousel-items">
+      <img src="./images/nw.PNG" class="d-block w-100" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> 
+
+        <!-- <img src="./images/mariola-grobelska-3GIchyZHxYY-unsplash.jpg" alt="images" width="600px"> -->
+        <!-- <img src="./images/istockphoto-528387715-612x612.jpg" alt="images" width="600px"> -->
+    
+    <!-- <div class="about">
     <p class="wel">WELCOME TO OUR STORE</p>
     <h2>Upgrade Your home with Smart Appliances.</h2>
     <p class="shop">Quality appliances for every corner of your home, shop the best kitchen, laundry, and living essentials today.</p>
     <button>Start Shopping</button>
-    </div>
+    </div> -->
     </section>
     <section id="shop" class="sec2">
         <div class="card1">
-            <img src="./images/PHOTO-2025-08-30-16-01-07.jpg" alt="" >
+            <img src="./images/PHOTO-2025-08-30-16-01-07.jpg" alt="" width="100px" >
             <h3 class="why">About Us</h3>
-            <p class="why">We are your trusted store for reliable and affordable home appliances. From kitchen gadgets to smart home devices, we bring comfort and convenience to your everyday life.</p>
+            <p class="why why2">We are your trusted store for reliable and affordable home appliances. From kitchen gadgets to smart home devices, we bring comfort and convenience to you.</p>
 
         </div>
         <div class="card1">
@@ -88,19 +122,21 @@
                         <i class="fa-regular fa-heart"></i>
                     </div>
                     <img src="./images/be1ad088-9ee7-4dad-9518-0bd61cfa4bff-removebg-preview.png" alt="" width="137px">
-                </div>
-                <div class="name title">
-                    <p>Blender Pro 5000 </p>
+                </div> 
+              <div class="pro">
+                  <div class="name title">
+                    <p class="">Blender Pro 5000 </p>
                 </div>
 
-                <div class="name">
+                <div class=" names name">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-regular fa-star"></i>
                 </div>
-                <div class="name title"><p>$49.99 <span class="line">$69.99</span></p></div>
+                <div class="name names title"><p>$49.99 <span class="line">$69.99</span></p></div>
+              </div>
             </div>
 
             <div>
@@ -117,7 +153,7 @@
                 <div class="name title">
                     <p>Smart Led TV 55</p>
                 </div>
-                <div class="name">
+                <div class="name names">
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
@@ -125,7 +161,7 @@
                      <i class="fa-solid fa-star"></i>
 
                 </div>
-                <div class="name title"><p>$399.99 <span class="line">$499.99</span></p></div>
+                <div class="name names title"><p>$399.99 <span class="line">$499.99</span></p></div>
 
             </div>
             <div>
@@ -140,14 +176,14 @@
                 <div class="name title">
                    <p> Automatic Washine </p>
                 </div>
-                <div class="name">
+                <div class="name names">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                    <i class="fa-solid fa-star"></i>
                    <i class="fa-solid fa-star"></i>
                    <i class="fa-regular fa-star"></i>
                 </div>
-                <div class="name title"><p>$259.99</p> </div>
+                <div class="name names title"><p>$259.99</p> </div>
             </div>
 
             <div>
@@ -162,25 +198,26 @@
                 <div class="name title">
                     <p>Microwave Oven XL</p>
                 </div>
-                <div class="name">
+                <div class="name names">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 </div>
-                <div class="name title"><p>$120.00</p></div>
+                <div class="name names title"><p>$120.00</p></div>
             </div>
-            <div>
+            <div class="tas">
                 <div class="product-card">
                     <div class="discount">-20%</div>
                     <div class="favourite">
                         <i class="fa-regular fa-heart"></i>
                     </div>
                 <div><img src="./images/PHOTO-2025-08-29-15-52-35__2_-removebg-preview.png" alt="" width="135px"></div>
-                </div>
-                <div class="name title"><p>Standing Fan TurboCool</p></div>
-                <div class="name">
+               
+               </div>
+                <div class="name  title"><p>Standing Fan TurboCool</p></div>
+                <div class="name names">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -188,17 +225,39 @@
                 <i class="fa-regular fa-star"></i>
 
                 </div>
-                <div class="name title"><p>$89.99 <span class="line">$120.00</span></p></div>
+                <div class="name names title "><p>$89.99 <span class="line">$120.00</span></p></div>
             </div>
-            
+
+            <!-- <div>
+            <div class="product-card">
+                <div class="discount2">New</div>
+
+                <div class="favourite">  
+                  <i class="fa-regular fa-heart"></i> 
+                </div>
+
+                <div>
+                    <img src="./images/IMG_8210.PNG" alt="" width="120">
+                </div>
+
+            </div>
+            <div class="name title"><p>Food Processor</p></div>
+            <div class="name names title"><p>$180</p></div>
+
         </div>
-    </section>
-     <p class="prods">Explore more great finds. <span class="view">View all products <span class="fa"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+             -->
+        </div>
+
+        <p class="prods">Explore more great finds. <span class="view">View all products <span class="fa"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
 </span></span></p>
+    </section>
+     <!-- <p class="prods">Explore more great finds. <span class="view">View all products <span class="fa"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+</span></span></p> -->
 <section id="page">
     <div class="combo1">
         <div>
-            <img src="./images/PHOTO-2025-08-29-17-41-32.jpg" alt="" width="400px">
+            <!-- <img src="./images/PHOTO-2025-08-29-17-41-32.jpg" alt="" width="400px"> -->
+             <img src="./images/istockphoto-1430298124-612x612.webp" alt="">
            
         </div>
 
@@ -240,7 +299,7 @@
         <button>Learn More</button>
     </div>
     <div>
-        <img src="./images/9980cae4-1d10-4f55-8b7f-5642edec11fd-removebg-preview.png" alt="">
+        <img src="./images/istockphoto-171589331-612x612-removebg-preview.png" alt="">
     </div>
 
 </section>
@@ -261,12 +320,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8205.PNG" alt="" width="75">
+                    <img src="./images/IMG_8205.PNG" alt="" width="105">
                 </div>
 
             </div>
             <div class="name title"><p>Water Dispenser</p></div>
-            <div class="name title"><p>$160.99 <span class="line">$190</span></p></div>
+            <div class="name names title"><p>$160.99 <span class="line">$190</span></p></div>
 
         </div>
 
@@ -281,12 +340,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8206.PNG" alt="" width="90">
+                    <img src="./images/IMG_8206.PNG" alt="" width="120">
                 </div>
 
             </div>
             <div class="name title"><p>Ice-Cream Maker</p></div>
-            <div class="name title"><p>$170.99</p></div>
+            <div class="name names title"><p>$170.99</p></div>
 
         </div>
 
@@ -300,12 +359,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8207.PNG" alt="" width="100">
+                    <img src="./images/IMG_8207.PNG" alt="" width="140">
                 </div>
 
             </div>
             <div class="name title"><p>Juice Extractor</p></div>
-            <div class="name title"><p>$180.99 <span class="line">$230</span></p></div>
+            <div class="name names title"><p>$180.99 <span class="line">$230</span></p></div>
 
         </div>
 
@@ -319,12 +378,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8208.PNG" alt="" width="70">
+                    <img src="./images/IMG_8208.PNG" alt="" width="100">
                 </div>
 
             </div>
             <div class="name title"><p>Coffee Maker</p></div>
-            <div class="name title"><p>$160.99</p></div>
+            <div class="name names title"><p>$160.99</p></div>
 
         </div>
 
@@ -338,12 +397,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8209.PNG" alt="" width="50">
+                    <img src="./images/IMG_8209.PNG" alt="" width="70">
                 </div>
 
             </div>
             <div class="name title"><p>Vacuum Cleaner</p></div>
-            <div class="name title"><p>$150.99 <span class="line">$190.99</span></p></div>
+            <div class="name names title"><p>$150.99 <span class="line">$190.99</span></p></div>
 
         </div>
 
@@ -357,12 +416,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8210.PNG" alt="" width="80">
+                    <img src="./images/IMG_8210.PNG" alt="" width="120">
                 </div>
 
             </div>
             <div class="name title"><p>Food Processor</p></div>
-            <div class="name title"><p>$180</p></div>
+            <div class="name names title"><p>$180</p></div>
 
         </div>
 
@@ -375,12 +434,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8211.PNG" alt="" width="70">
+                    <img src="./images/IMG_8211.PNG" alt="" width="100">
                 </div>
 
             </div>
             <div class="name title"><p>Blender Pro</p></div>
-            <div class="name title"><p>$160.99</p></div>
+            <div class="name names title"><p>$160.99</p></div>
 
         </div>
 
@@ -393,12 +452,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8212.PNG" alt="" width="115">
+                    <img src="./images/IMG_8212.PNG" alt="" width="174">
                 </div>
 
             </div>
             <div class="name title"><p>Electric Cooker</p></div>
-            <div class="name title"><p>$190.99 <span class="line">$220</span></p></div>
+            <div class="name names title"><p>$190.99 <span class="line">$220</span></p></div>
 
         </div>
 
@@ -411,12 +470,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8213.PNG" alt="" width="100">
+                    <img src="./images/IMG_8213.PNG" alt="" width="160">
                 </div>
 
             </div>
             <div class="name title"><p>2-Slice Toaster</p></div>
-            <div class="name title"><p>$160.99</p></div>
+            <div class="name names title"><p>$160.99</p></div>
 
         </div>
         
@@ -430,12 +489,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8214.PNG" alt="" width="60">
+                    <img src="./images/IMG_8214.PNG" alt="" width="90">
                 </div>
 
             </div>
             <div class="name title"><p>Air Fryer</p></div>
-            <div class="name title"><p>$150 <span class="line">$180</span></p></div>
+            <div class="name names title"><p>$150 <span class="line">$180</span></p></div>
         </div>
 
         <div>
@@ -447,12 +506,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8215.PNG" alt="" width="100">
+                    <img src="./images/IMG_8215.PNG" alt="" width="140">
                 </div>
 
             </div>
             <div class="name title"><p>Electric Kettle</p></div>
-            <div class="name title"><p>$120 <span class="line">$150</span></p></div>
+            <div class="name names title"><p>$120 <span class="line">$150</span></p></div>
         </div>
 
         <div>
@@ -464,12 +523,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8216.PNG" alt="" width="90">
+                    <img src="./images/IMG_8216.PNG" alt="" width=" 130">
                 </div>
 
             </div>
             <div class="name title"><p>Steam Iron</p></div>
-            <div class=" name title"><p>$200 <span class="line">$225</span></p></div>
+            <div class=" name names title"><p>$200 <span class="line">$225</span></p></div>
         </div>
 
         <div>
@@ -481,12 +540,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8217.PNG" alt="" width="115">
+                    <img src="./images/IMG_8217.PNG" alt="" width="150">
                 </div>
 
             </div>
             <div class="name title"><p>Freezer Refrigerator</p></div>
-            <div class=" name title"><p>$500</p></div>
+            <div class=" name names title"><p>$500</p></div>
             
         </div>
         <div>
@@ -498,16 +557,16 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8218.PNG" alt="" width="140">
+                    <img src="./images/IMG_8218.PNG" alt="" width="170">
                 </div>
 
             </div>
             <div class="name title"><p>Freestanding DishWasher</p></div>
-            <div class=" name title"><p>$300</p></div>
+            <div class=" name names title"><p>$300</p></div>
         </div>
 
-        <div>
-                                    <div class="product-card">
+        <div class="tas">
+            <div class="product-card">
                 <div class="discount">-27%</div>
 
                 <div class="favourite">  
@@ -515,12 +574,12 @@
                 </div>
 
                 <div>
-                    <img src="./images/IMG_8219.PNG" alt="" width="100">
+                    <img src="./images/IMG_8219.PNG" alt="" width="130">
                 </div>
 
             </div>
             <div class="name title"><p>Electric Dry Iron</p></div>
-            <div class=" name title"><p>$130.99 <span class="line">$180</span></p></div>
+            <div class=" name names title"><p>$130.99 <span class="line">$180</span></p></div>
         </div>
     </div>
     <p class="prods">Explore more great finds. <span class="view">View all products <span class="fa"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span></span></p>
@@ -536,12 +595,12 @@
   </div>
   
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/47816685-3f20-4b94-bcc7-f7e5c0995a7f.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item act active">
+      <img src="./images/point-normal-lGpSsh70wYQ-unsplash.jpg" class="d-block w-100 " alt="...">
+      <div class="carousel-caption tion d-block d-md-block">
          <h3 class="view view4">client Says</h3>
          <img src="./images/1756750630747.jpg"  class="hmm" alt="">
-        <p>"As a student, I needed something affordable but strong, so I bought a hot plate here. It heats up quickly, cooks evenly, and doesn't consume too much electricity. It's perfect for my daily meals, and I've had no problems at all. This is one of the best purchases I've made this year."</p>
+        <p>"I needed something affordable but strong, so I bought a hot plate here. It heats up quickly, cooks evenly, and doesn't consume too much electricity. It's perfect for my daily meals, and I've had no problems at all. This is one of the best purchases I've made this year."</p>
         <div class="name">
             <i class="fa-solid fa-star"></i>
          <i class="fa-solid fa-star"></i>
@@ -557,9 +616,9 @@
       </div>
       
     </div>
-    <div class="carousel-item">
-      <img src="./images/47816685-3f20-4b94-bcc7-f7e5c0995a7f.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item act">
+      <img src="./images/point-normal-lGpSsh70wYQ-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block d-md-block">
          <h3 class="view view4">client Says</h3>
          <img src="./images/IMG_8241 (1).jpg"  class="hmm" alt="">
         <p>"The home appliances I bought here are fantastic. My blender and air fryer work smoothly every day. The quality feels strong and long-lasting. Delivery was quick and stress free. I'm very happy with my purchase!"</p>
@@ -577,9 +636,9 @@
         
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="./images/47816685-3f20-4b94-bcc7-f7e5c0995a7f.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item act">
+      <img src="./images/point-normal-lGpSsh70wYQ-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block d-md-block">
            <h3 class="view view4">client Says</h3>
          <img src="./images/IMG_8242.jpg"  class="hmm" alt="">
         <p>"I am so pleased with my new home appliances. The toaster and kettle make mornings effortless. Everything looks modern and perfectly. Customer service was warm and professional. I would gladly recommend this store to friends."</p>
@@ -629,8 +688,8 @@
         <div class="only">
             
              <img src="./images/be1ad088-9ee7-4dad-9518-0bd61cfa4bff.jpg" width="200px" class="blend" alt="">
-        <h5 class="top2 ">How to Maintain Your Blender And Make It Last Longer</h5>
-        <p class="top2">Clean Immediately After Use, and avoid Overfiling</p>
+        <h5 class="top ">How to Maintain Your Blender And Make It Last Longer</h5>
+        <p class="top">Clean Immediately After Use, and avoid Overfiling</p>
         <div class="feb">
             <div>13 Feb |</div>
             <div><span><i class="fa-solid fa-circle-user"></i></span> ALO Support |</div>
@@ -638,7 +697,7 @@
         </div>
         </div>
         <div class="only">
-        <img src="./images/8A460E08-9CA2-4DD6-A81F-82E20444CF81.PNG" width="300px" alt="">
+          <img src="./images/8A460E08-9CA2-4DD6-A81F-82E20444CF81.PNG" width="300px" alt="">
             <h5 class="top">Three Affordable Appliances THat Makes Life Easier</h5>
             <p class="top">Upgrade your home without breaking the bank.</p>
 
@@ -697,7 +756,7 @@
 
     <div class="last">
         <img src="./images/381561CF-B698-44AD-9619-A9DCFB394FF0-removebg-preview.png" width="90px" alt="">
-        <p>We believe home should be smarter, simpler, and more comfortable. That's why we provide high-quality, reliable appliances designed to make everyday living easier. With innovation, style, and care at the heart of what we do, we're committed to bringing convenience and value into every home.</p>
+        <p class="simp">We believe home should be smarter, simpler, and more comfortable. That's why we provide high-quality, reliable appliances designed to make everyday living easier. With innovation, style, and care at the heart of what we do, we're committed to bringing convenience and value into every home.</p>
 
         <div class="socials">
             <i class="fa-brands fa-twitter"></i>

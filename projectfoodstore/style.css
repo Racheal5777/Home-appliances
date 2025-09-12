@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    max-width: 1000px;
+    margin: 3rem auto;
+}
+#wrapper > span{
+    color: green;
+    text-transform: capitalize;
+    width: 200px;
+    display:block;
+    margin: auto;
+    text-align: center;
+}
+#wrapper > h3{
+    text-align: center;
+    margin-block: .5rem;
+    text-transform: capitalize;
+}
+#wrapper >p {
+    text-align: center;
+    font-size : 12px;
+}
+.cardWrapper{
+    margin-top: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+.imgCont > span{
+    display: flex;
+}
+.dis{
+    display: flex;
+}
+.foodCard{
+    height: 40vh;
+}
+.imgCont{
+    background-color: lightblue;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imgCont > img{
+    width: 100%;
+}
+.foodCard > h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: green;
+    font-size: 12px;
+    margin-block: .4rem;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.tag > span{
+    font-size: 14px;
+}
+.tag > span :nth-child(1){
+    color: red;
+}
+.tag > span:nth-child(2){
+    color: grey;
+    text-decoration: line-through;
+}
