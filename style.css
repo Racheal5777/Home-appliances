@@ -58,6 +58,9 @@
 nav{
     /* background-image:url(images/william-daigneault-YBl4fQPsBJY-unsplash.jpg) ; */
     background-color: rgb(25, 106, 138);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     color: #fff;
 }
 
