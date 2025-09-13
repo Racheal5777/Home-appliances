@@ -15,28 +15,15 @@
     height: 90vh;
     background-size: 100% 100%;
 }
-/* .badge{ */
-    background-color: black;
-    text-align: center;
-    line-height: normal;
 
-    color: white;
-    border: 2px solid;
-    display: flex;
-    justify-content: center;
-    padding-left: 20px;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-}
-.loveic > .cartic{
+.loveic .cartic{
     position: relative;
+    display: inline-block;
 }
 .loveic > .badge{ 
     position: absolute;
-    top: 12px;
-    right: 50px;
+    top: 2px;
+    right: -2px;
     
     background-color: blue;
     flex-wrap: wrap;
@@ -51,8 +38,8 @@
 }
 .cartic>.badges{
      position: absolute;
-    top: 12px;
-    right: 20px;
+    top: 2px;
+    right: -2px;
     
     background-color: blue;
     flex-wrap: wrap;
@@ -114,6 +101,8 @@ nav{
     color: rgb(34, 17, 17);
     padding-right: 10px;
     text-decoration: none;
+    position: relative;
+    display: inline-block;
 }
 .nav-bar{
     display: flex;
@@ -575,9 +564,10 @@ footer{
     display: none;
 }
 
-@media(min-width: 300px) and (max-width: 788px){
+@media(min-width: 300px) and (max-width: 1000px){
     .nav-bar{
         width: calc(100% - 40px);
+        /* max-width: 400px; */
     }
     .hamburger{
         display: block;
@@ -615,14 +605,6 @@ footer{
     }
     .mail-bar{
         display: flex;
-    }
-    .loveic > .badge{
-        position: absolute;
-        right: 65px;
-    }
-    .cartic >.badges{
-        position: absolute;
-        right: 38px;
     }
     .carousel-items > img{
         height: 30vh;
@@ -675,7 +657,7 @@ footer{
     }
     .sec4{
         position: relative;
-        top: 40rem;
+        top: 35rem;
     }
     .best-at{
         flex-direction: column;
@@ -685,7 +667,7 @@ footer{
     }
     .combo1{
         position: relative;
-        top: 35rem;
+        top: 30rem;
 
         width: 100vw;
         display: flex;
@@ -738,11 +720,11 @@ footer{
     }
     .sec6{
         position: relative;
-        top:48rem
+        top:25rem
     }
     .smart{
         position: relative;
-        top: 44rem;
+        top: 25rem;
         flex-direction: column-reverse;
           width: 100vw;
         padding: 30px;
@@ -786,12 +768,12 @@ footer{
     }
     .sec7{
         position: relative;
-        top: 54rem;
+        top: 24rem;
     }
     
     .sub{
         position: relative;
-        top: 60rem;
+        top: 24rem;
         flex-direction: column;
     }
     .subscribe button{
@@ -799,7 +781,7 @@ footer{
     }
     footer{
         position: relative;
-        top: 60rem;
+        top: 24rem;
     }
 
 
